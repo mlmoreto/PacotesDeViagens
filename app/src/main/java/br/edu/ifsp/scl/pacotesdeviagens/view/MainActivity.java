@@ -82,6 +82,19 @@ public class MainActivity extends AppCompatActivity {
 
         pacotes.add(beloHorizonte);
 
+        PacoteDeViagem canela = new PacoteDeViagem("Canela - RS",
+                "6 diárias + Voo",
+                "Apenas R$3500,00",
+                "img_canela");
+
+        pacotes.add(canela);
+
+        PacoteDeViagem gramado = new PacoteDeViagem("Gramado - RS",
+                "5 diárias + Voo",
+                "Apenas R$3700,00",
+                "img_gramado");
+
+        pacotes.add(gramado);
 
         RecyclerView recyclerView = findViewById(R.id.rvPacotes);
 
