@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setTitle("Agência de Viagens da Maria");
+        setTitle("MLM - Agência de Viagens");
 
         // Cria objetos
         PacoteDeViagem salvador = new PacoteDeViagem("Salvador - BA",
                 "4 diárias",
                 "Apenas R$1200,00",
-                "img_salvador_ba");
+                "img_salvador");
 
         pacotes.add(salvador);
 
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         PacoteDeViagem camposDoJordao = new PacoteDeViagem("Campos do Jordão - SP",
                                                               "3 diárias",
                                                                 "Apenas R$899,99",
-                                                         "img_campos_jordao");
+                                                         "img_campos_do_jordao");
 
         pacotes.add(camposDoJordao);
 
